@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV /home/aketrari/workspace/data-engineering/gcp-data-engineering-portfolio/venv
+setenv VIRTUAL_ENV /home/aketrari/projects/data-engineering-portfolio/gcp-data-engineering-portfolio/venv
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/"bin":$PATH"

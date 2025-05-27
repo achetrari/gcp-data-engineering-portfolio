@@ -1,21 +1,26 @@
 # GCP Data Engineering Portfolio
 
-## Overview
-This repository showcases my journey learning data engineering with Google Cloud Platform.
+A 5-week intensive bootcamp covering modern data engineering practices on Google Cloud Platform.
 
-## Projects
-- Week 1: COVID Data Pipeline
-- Week 2: E-commerce Analytics with Airflow
-- Week 3: Customer Analytics with dbt
-- Week 4: Real-time IoT Streaming
-- Week 5: ML-enabled Data Platform
+## Project Structure
 
-## Technologies
-- Google Cloud Platform (BigQuery, Cloud Storage, Dataflow)
-- Apache Airflow / Cloud Composer
-- dbt (data build tool)
-- Kubernetes
-- Python
+- **Week 1**: COVID Data Pipeline (BigQuery + Cloud Storage + Data Studio)
+- **Week 2**: Kubernetes + Cloud Composer + E-commerce Analytics
+- **Week 3**: dbt + Advanced BigQuery + Customer Segmentation
+- **Week 4**: Real-time Streaming (Pub/Sub + Dataflow + IoT)
+- **Week 5**: MLOps + Vertex AI + Integrated ML Platform
 
-## Setup Instructions
-[Coming soon...]
+## Setup
+
+1. Create virtual environment: `python3 -m venv venv`
+2. Activate: `source venv/bin/activate`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Configure GCP: `gcloud auth login`
+
+## Progress Tracking
+
+- [ ] Week 1: COVID Data Pipeline
+- [ ] Week 2: Kubernetes & Composer
+- [ ] Week 3: dbt Analytics
+- [ ] Week 4: Streaming Pipeline
+- [ ] Week 5: MLOps Platform

@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/aketrari/workspace/data-engineering/gcp-data-engineering-portfolio/venv
+set -gx VIRTUAL_ENV /home/aketrari/projects/data-engineering-portfolio/gcp-data-engineering-portfolio/venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH
